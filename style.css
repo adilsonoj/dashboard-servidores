@@ -1,0 +1,57 @@
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  width: 100%;
+  gap: 10px;
+}
+
+.card {
+  height: 250px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  border-left: solid 5px indigo;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  padding: 5px;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card-content {
+  display: flex;
+  height: 90%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.status-info {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+.graph_pizza {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.stop {
+  background-color: red;
+}
+
+.warning {
+  background-color: orange;
+}
+
+.start {
+  background-color: green;
+}
